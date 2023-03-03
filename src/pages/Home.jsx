@@ -3,9 +3,9 @@ import React, { useState, useEffect } from 'react';
 import { Loader, Card, FormField } from '../components';
 
 const Home = () => {
-  const [loading, setLoading] = useState(false)  //cretaes loading imagebar
+  const [loading, setLoading] = useState(false)  //creates loading imagebar
   const [allPosts, setaAllPosts] = useState(null);
-  
+  const [searchText, setSearchText] = useState('');  //shows the results for searchText
   return (
     <section className="max-w-7x1 mx-auto">
       <div>
@@ -26,7 +26,11 @@ const Home = () => {
 
         ) : (
           <>
-          
+            {searchText && (                                                      //connects to searchText use state
+              <h2 className="font-medium text-[#666e75] text-xl mb-3">
+                Showing results for <span className="text-[#222328]">{searchText}</span>
+              </h2>
+            )}
           </>
         )}
 
