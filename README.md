@@ -27,20 +27,4 @@ This is a web application that allows users to generate beautiful and unique ima
 * Render (for hosting)
 * Netlify (for deployment)
 
-## Installation and Usage
 
-To install and run the application locally, follow these steps:
-
-1. Clone the GitHub repository to your local machine:
-```
-git clone https://github.com/your-username/your-repo-name.git
-```
-
-2.Navigate to the project directory:
-```
-cd your-repo-name
-```
-3.Install the required dependencies:
-```
-npm install
-```
