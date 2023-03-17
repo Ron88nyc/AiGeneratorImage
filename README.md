@@ -7,9 +7,8 @@ This is a web application that allows users to generate beautiful and unique ima
 `Table of Contents`
 * Features
 * Technologies Used
-* Installation and Usage
-* Contributing
-* License
+
+
 
 `Features`
 * AI-powered image generation
